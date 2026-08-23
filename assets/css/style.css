@@ -241,6 +241,35 @@ h6 {
   transform: translateY(-2px);
 }
 
+#header .hero-buttons {
+  margin-top: 16px;
+}
+
+#header .btn-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #18d26e, #0a9d55);
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(24, 210, 110, 0.4);
+}
+
+#header .btn-cv:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(24, 210, 110, 0.5);
+  color: #fff;
+}
+
+#header .btn-cv i {
+  font-size: 16px;
+}
+
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
